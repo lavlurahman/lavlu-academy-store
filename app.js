@@ -183,6 +183,18 @@ function openProduct(id) {
     >
       কার্টে যোগ করুন <span>+</span>
     </button>
+    
+  <div class="preview-section">
+  <p><strong>PDF-এর নমুনা দেখে নিন</strong></p>
+  <a
+    class="preview-button"
+    href="./Lavlu_Academy_Vector_Preview_3_Pages.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    ৩ পৃষ্ঠার প্রিভিউ দেখুন
+  </a>
+  </div>
 
     <p class="demo-note">
       নমুনা পণ্য। বাস্তব পেমেন্ট বা PDF সরবরাহ চালু নেই।
