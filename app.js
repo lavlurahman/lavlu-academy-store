@@ -4,13 +4,15 @@ const products = [
     title: "ভেক্টর — সম্পূর্ণ অধ্যায় নোট",
     category: "HSC Physics",
     level: "HSC পদার্থবিজ্ঞান ১ম পত্র",
-    price: 120,
-    oldPrice: 180,
+    price: 50,
+    oldPrice: 50,
     tag: "জনপ্রিয়",
-    description: "সংজ্ঞা, সূত্র, উদাহরণ, বোর্ড প্রশ্ন ও অধ্যায়ভিত্তিক অনুশীলনী।",
+    description: "ভেক্টর অধ্যায়ের বোর্ড প্রশ্ন ও CQ সমাধান। ২১ পৃষ্ঠার PDF। কিছু অংশ আপডেট করা বাকি; পরবর্তী সংস্করণে সংশোধন করা হবে।",
     a: "#0c9a70",
-    b: "#075744"
-  },
+    b: "#075744",
+    pages: 21,
+    format: "PDF"
+},
   {
     id: 2,
     title: "গতি ও গতির সমীকরণ",
@@ -162,6 +164,10 @@ function openProduct(id) {
 
     <p class="dialog-description">${p.description}</p>
     <p class="dialog-description">${p.level}</p>
+    <p class="dialog-description">
+  📄 ফরম্যাট: ${p.format || "PDF"} |
+  📑 পৃষ্ঠা: ${p.pages || "তথ্য যোগ হয়নি"}
+</p>
 
     <p class="dialog-price">
       ${money(p.price)}
